@@ -1,11 +1,10 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
-import 'package:weather_app/app/module/weather/1%20-%20domain/entities/weather_search.dart';
-import 'package:weather_app/app/module/weather/1%20-%20domain/errors/weather_errors.dart';
-import 'package:weather_app/app/module/weather/1%20-%20domain/repositories/weather_repository.dart';
-import 'package:weather_app/app/module/weather/1%20-%20domain/usecases/weather_by_text.dart';
-
+import 'package:weather_app/app/module/weather/domain/entities/weather_search.dart';
+import 'package:weather_app/app/module/weather/domain/errors/weather_errors.dart';
+import 'package:weather_app/app/module/weather/domain/repositories/weather_repository.dart';
+import 'package:weather_app/app/module/weather/domain/usecases/weather_by_text.dart';
 
 class IWeatherRepositoryMock extends Mock implements IWeatherRepository {}
 

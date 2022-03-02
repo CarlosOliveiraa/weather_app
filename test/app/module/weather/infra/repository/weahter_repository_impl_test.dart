@@ -1,11 +1,11 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
-import 'package:weather_app/app/module/weather/1%20-%20domain/entities/weather_search.dart';
-import 'package:weather_app/app/module/weather/1%20-%20domain/errors/weather_errors.dart';
-import 'package:weather_app/app/module/weather/2%20-%20infra/datasource/weather_datasource.dart';
-import 'package:weather_app/app/module/weather/2%20-%20infra/models/weather_search_model.dart';
-import 'package:weather_app/app/module/weather/2%20-%20infra/repository/weahter_repository_impl.dart';
+import 'package:weather_app/app/module/weather/domain/entities/weather_search.dart';
+import 'package:weather_app/app/module/weather/domain/errors/weather_errors.dart';
+import 'package:weather_app/app/module/weather/infra/datasource/weather_datasource.dart';
+import 'package:weather_app/app/module/weather/infra/models/weather_search_model.dart';
+import 'package:weather_app/app/module/weather/infra/repository/weahter_repository_impl.dart';
 
 class WeatherDatasourceMock extends Mock implements WeatherDatasource {}
 

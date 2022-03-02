@@ -1,7 +1,8 @@
-import 'package:weather_app/app/module/weather/1%20-%20domain/errors/weather_errors.dart';
-import 'package:weather_app/app/module/weather/1%20-%20domain/entities/weather_search.dart';
 import 'package:dartz/dartz.dart';
-import '../../1 - domain/repositories/weather_repository.dart';
+
+import '../../domain/entities/weather_search.dart';
+import '../../domain/errors/weather_errors.dart';
+import '../../domain/repositories/weather_repository.dart';
 import '../datasource/weather_datasource.dart';
 
 class WeatherRepositoryImpl implements IWeatherRepository {

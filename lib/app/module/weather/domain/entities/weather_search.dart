@@ -1,10 +1,10 @@
-
+import 'weather_forecast.dart';
 
 class WeatherSearch {
   final String temperature;
   final String wind;
   final String description;
-  final List<String> forecast;
+  final List<WeatherForecast> forecast;
   final String day;
 
   WeatherSearch({
