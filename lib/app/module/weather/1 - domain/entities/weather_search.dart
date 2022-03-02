@@ -1,3 +1,5 @@
+
+
 class WeatherSearch {
   final String temperature;
   final String wind;
@@ -5,10 +7,11 @@ class WeatherSearch {
   final List<String> forecast;
   final String day;
 
-  WeatherSearch(
-      {required this.temperature,
-      required this.wind,
-      required this.description,
-      required this.forecast,
-      required this.day});
+  WeatherSearch({
+    required this.temperature,
+    required this.wind,
+    required this.description,
+    required this.forecast,
+    required this.day,
+  });
 }
