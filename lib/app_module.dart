@@ -5,6 +5,7 @@ import 'package:flutter_modular/flutter_modular.dart';
 import 'app/module/weather/domain/usecases/weather_by_text.dart';
 import 'app/module/weather/external/datasources/weather_datasource_impl.dart';
 import 'app/module/weather/infra/repository/weahter_repository_impl.dart';
+import 'app/module/weather/presenters/blocs/weather_bloc.dart';
 import 'app_widget.dart';
 
 class AppModule extends Module {
@@ -14,6 +15,7 @@ class AppModule extends Module {
         Bind((i) => WeatherDataSourceImpl(i())),
         Bind((i) => WeatherRepositoryImpl(i())),
         Bind((i) => WeatherByText(i())),
+        Bind((i) => WeatherBloc(i())),
       ];
 
   @override
